@@ -1,0 +1,65 @@
+{
+    "livres": [
+      {
+        "id": 1,
+        "titre": "Le Seigneur des Anneaux",
+        "auteur": "J.R.R. Tolkien",
+        "annee_publication": 1954,
+        "genre": ["Fantasy", "Aventure"],
+        "langue": "Français",
+        "note": 4.8,
+        "resumes": [
+          "Dans la Terre du Milieu, un jeune hobbit nommé Frodon Sacquet se lance dans une quête pour détruire un anneau maléfique et sauver son monde de Sauron, le Seigneur des Ténèbres."
+        ]
+      },
+      {
+        "id": 2,
+        "titre": "Harry Potter à l'école des sorciers",
+        "auteur": "J.K. Rowling",
+        "annee_publication": 1997,
+        "genre": ["Fantasy", "Jeunesse"],
+        "langue": "Français",
+        "note": 4.6,
+        "resumes": [
+          "Un jeune sorcier nommé Harry Potter découvre qu'il est un sorcier célèbre et qu'il a été accepté à l'école de sorcellerie Poudlard. Là, il se lie d'amitié avec Ron Weasley et Hermione Granger, et ensemble, ils affrontent le maléfique mage noir Voldemort."
+        ]
+      },
+      {
+        "id": 3,
+        "titre": "1984",
+        "auteur": "George Orwell",
+        "annee_publication": 1949,
+        "genre": ["Science-fiction", "Dystopie"],
+        "langue": "Français",
+        "note": 4.5,
+        "resumes": [
+          "Dans un monde totalitaire où la pensée est contrôlée, Winston Smith tente de résister au régime oppressif du Parti et de trouver un sens à sa vie."
+        ]
+      },
+      {
+        "id": 4,
+        "titre": "Orgueil et Préjugés",
+        "auteur": "Jane Austen",
+        "annee_publication": 1813,
+        "genre": ["Roman", "Classique"],
+        "langue": "Français",
+        "note": 4.7,
+        "resumes": [
+          "Dans l'Angleterre du XIXe siècle, Elizabeth Bennet doit faire face à sa mère qui cherche à lui trouver un mari. Mais lorsqu'elle rencontre le riche et arrogant Mr. Darcy, elle doit remettre en question ses préjugés."
+        ]
+      },
+      {
+        "id": 5,
+        "titre": "Le Petit Prince",
+        "auteur": "Antoine de Saint-Exupéry",
+        "annee_publication": 1943,
+        "genre": ["Conte", "Philosophie"],
+        "langue": "Français",
+        "note": 4.9,
+        "resumes": [
+          "Un jeune prince quitte sa planète pour explorer d'autres mondes. En chemin, il rencontre un aviateur échoué dans le désert et découvre les leçons de vie simples mais profondes."
+        ]
+      }
+    ]
+  }
+  
