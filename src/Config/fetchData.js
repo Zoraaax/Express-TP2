@@ -1,6 +1,5 @@
 import path from "path";
 
-export const dataFilePath = path.join(
-  "./Javascript/Express2000",
-  "../../data.json"
-);
+export const dataLivresFilePath = path.join("./data", "livres.json");
+
+export const dataUsersFilePath = path.join("./data", "users.json");

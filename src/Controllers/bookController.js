@@ -1,10 +1,10 @@
-import { dataFilePath } from "../Config/fetchData.js";
+import { dataLivresFilePath } from "../Config/fetchData.js";
 import fs from "fs";
 import path from "path";
 
 export class bookController {
   constructor() {
-    this.dataFilePath = path.resolve(dataFilePath);
+    this.dataFilePath = path.resolve(dataLivresFilePath);
     this.data = this.loadData();
   }
 
@@ -41,7 +41,7 @@ export class bookController {
   }
 
   getBookByAuthor(req, res) {
-    const author = req.params.author;
+    const author = req.params.auteur;
     const booksByAuthor = this.data.filter((book) => book.auteur === author);
     if (booksByAuthor.length > 0) {
       res.status(200).json(booksByAuthor);

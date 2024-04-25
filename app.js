@@ -5,6 +5,7 @@ const APP = express();
 const PORT = 8080;
 
 APP.use(express.static("public"));
+APP.use(express.json());
 
 routes(APP);
 
