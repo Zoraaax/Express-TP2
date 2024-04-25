@@ -1,7 +1,7 @@
 import { bookController } from "../Controllers/bookController.js";
 
 export const bookRoutes = (app) => {
-  const controller = new bookController();
+  const bookControllerInstance = new bookController();
 
   app.route("/livres").get(controller.getBooks.bind(controller));
   app.route("/livres/:id").get(controller.getBookById.bind(controller));
